@@ -4,21 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TFT</title>
-
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>What is up my party people</h1>
-
-    <p>Hello World</p>
-    <p>We are</p>
-    <p>This shit is awesome</p>
-    <p>This shit is awesome</p>
-    <p>This shit is awesome</p>
-    <p>This shit is awesome</p>
-
-
-    <p>hahaha</p>
+    <div class="topHUD"></div>
+    <div class="middleHUD">
+        <div class="items"></div>
+        <div class="traits"></div>
+        <div class="player"></div>
+    </div>
+    <div class="bottomHUD">
+        <div class="level">
+            <h3 id="level">Lvl. 8</h3>
+            <button id="xpbutton" class="button">Buy XP</button>
+            <button id="rerollbutton" class="button">Reroll Shop</button>
+        </div>
+        <div class="shop">
+            <button id="slot1" class="champion"></button>
+            <button id="slot2" class="champion"></button>
+            <button id="slot3" class="champion"></button>
+            <button id="slot4" class="champion"></button>
+            <button id="slot5" class="champion"></button>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
